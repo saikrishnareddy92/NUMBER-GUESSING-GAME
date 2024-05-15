@@ -19,7 +19,6 @@ public class GuessTheNumber {
         int minRange = 1;
         int maxRange = 100;
         int randomNumber = random.nextInt(maxRange - minRange + 1) + minRange;
-
         Scanner scanner = new Scanner(System.in);
         int attempts = 0;
         int userGuess;
